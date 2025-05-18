@@ -8,17 +8,17 @@
 .container {
   width: 100%;
   height: 100vh;
-  background: #e6afaf;
+  background-image: url("../Pictures/BGC.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .calculator {
-  background: #b93e3e;
+  background-image: url("../Pictures/Phys.jpg");
   padding: 30px;
   border-radius: 10px;
-  width: 350px;
+  width: 450px;
   color: #fff;
   text-align: center;
 }
