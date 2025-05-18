@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calphylator</title>
+  <link rel="stylesheet" href="Calcdes.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <h2>Calphylator</h2>
+      <h3>Work and Energy Calculator</h3>
+      <div class="step">
+        <label id="questionLabel">Force (N):</label>
+        <input type="number" id="inputField" required>
+        <button id="nextButton">Next</button>
+      </div>
+
+      <div class="display" id="results" style="display: none;">
+        <p id="workOutput"></p>
+        <p id="keOutput"></p>
+        <p id="peOutput"></p>
+        <button onclick="restart()">Start Over</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
